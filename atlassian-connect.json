@@ -1,0 +1,25 @@
+{
+     "name": "Attendance",
+     "description": "Atlassian Connect add-on",
+     "key": "com.example.myaddon",
+     "baseUrl": "http://localhost:9000",
+     "vendor": {
+         "name": "Example, Inc.",
+         "url": "http://example.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "version": "1.0",
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/views/helloworld.html",
+                 "key": "hello-world",
+                 "name": {
+                     "value": "Attendance"
+                 }
+             }
+         ]
+     }
+ }
